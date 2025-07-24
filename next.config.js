@@ -1,6 +1,4 @@
 module.exports = {
-  basePath: '/blog',
-  assetPrefix: '/blog',
   images: {
     domains: ['gravatar.com']
   },
