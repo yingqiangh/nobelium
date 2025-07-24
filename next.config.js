@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ['walleagent.com']
+    domains: ['gravatar.com']
   },
   eslint: {
     // dirs: ['components', 'layouts', 'lib', 'pages']
