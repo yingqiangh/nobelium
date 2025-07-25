@@ -1,7 +1,6 @@
 module.exports = {
   basePath: '/blog',
   assetPrefix: '/blog',
-  trailingSlash: true, // 推荐开启，保证生成静态 HTML 时路径更标准
   reactStrictMode: true,
   images: {
     domains: ['gravatar.com']
