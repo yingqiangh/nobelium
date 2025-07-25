@@ -9,8 +9,8 @@ const NavBar = () => {
   const BLOG = useConfig()
   const locale = useLocale()
   const links = [
+    { id: 1, name: locale.NAV.HOME, to: 'https://walleagent.com', show: true },
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
-    { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 2, name: locale.NAV.RSS, to: '/feed', show: true, external: true },
     { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true }
   ]
@@ -102,7 +102,7 @@ export default function Header ({ navBarTitle, fullWidth }) {
           />
         </svg>
         <div className="flex items-center">
-          <Link href="/" aria-label={BLOG.title}>
+          <Link href="https://walleagent.com" aria-label={BLOG.title} target="_blank" rel="noopener noreferrer">
             <Image
               src={favicon}
               width={24}
