@@ -23,14 +23,14 @@ class MyDocument extends Document {
             <>
               <link
                 rel="preload"
-                href="/fonts/SourceSerif.var.woff2"
+                href="/blog/fonts/SourceSerif.var.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
               />
               <link
                 rel="preload"
-                href="/fonts/SourceSerif-Italic.var.woff2"
+                href="/blog/fonts/SourceSerif-Italic.var.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
@@ -41,14 +41,14 @@ class MyDocument extends Document {
             <>
               <link
                 rel="preload"
-                href="/fonts/IBMPlexSansVar-Roman.woff2"
+                href="/blog/fonts/IBMPlexSansVar-Roman.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
               />
               <link
                 rel="preload"
-                href="/fonts/IBMPlexSansVar-Italic.woff2"
+                href="/blog/fonts/IBMPlexSansVar-Italic.woff2"
                 as="font"
                 type="font/woff2"
                 crossOrigin="anonymous"
@@ -88,7 +88,7 @@ class MyDocument extends Document {
               </noscript>
             </>
           )}
-          <link rel="icon" href="/favicon.png" />
+          <link rel="icon" href="/blog/favicon.png" />
           <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed"></link>
           {config.appearance === 'auto'
             ? (

@@ -3,7 +3,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "/fonts/IBMPlexSansVar-Roman.woff2",
+      "source": "/blog/fonts/IBMPlexSansVar-Roman.woff2",
       "headers": [
         {
           "key": "Cache-Control",

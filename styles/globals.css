@@ -7,7 +7,7 @@
   font-display: swap;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
+  src: url('/blog/fonts/IBMPlexSansVar-Roman.woff2') format('woff2');
 }
 
 @font-face {
@@ -16,7 +16,7 @@
   font-display: swap;
   font-style: italic;
   font-named-instance: 'Italic';
-  src: url('/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
+  src: url('/blog/fonts/IBMPlexSansVar-Italic.woff2') format('woff2');
 }
 
 @font-face {
